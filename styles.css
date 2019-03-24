@@ -50,11 +50,8 @@ article {
 	position: relative;
 	top: 2%;
 	left: 53%;
-	/* width: 40%;
-	height: 65vh; */
 	background-color: rgba(31, 30, 30, 0.7);
 	border-radius: 60px 15px;
-	/* display: none; */
 	visibility: hidden;
 	width: 0;
 	height: 0;
@@ -76,9 +73,8 @@ article p {
 
 /* This targets the article div when the relevant dot is clicked */
 #history:target {
-	/* display: block !important; */
 	width: 40%;
-	height: 65vh;
+	height: 66vh;
 	visibility: visible;
 }
 /* History article end */
@@ -88,11 +84,8 @@ section:nth-of-type(2) {
 	position: relative;
 	top: 2%;
 	left: 53%;
-	/* width: 40%;
-	height: 75vh; */
 	background-color: rgba(31, 30, 30, 0.7);
 	border-radius: 60px 15px;
-	/* display: none; */
 	z-index: 2;
 	visibility: hidden;
 	width: 0;
@@ -124,9 +117,8 @@ section:nth-of-type(2) img:hover {
 
 /* This targets the art div when the relevant dot is clicked */
 #art:target {
-	/* display: block !important; */
 	width: 40%;
-	height: 75vh;
+	height: 73vh;
 	visibility: visible;
 }
 /* Art div end */
